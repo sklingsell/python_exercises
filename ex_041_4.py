@@ -1,0 +1,17 @@
+import time
+
+print("|       |",flush=True,end='')
+time.sleep(1)
+print("|=      |",flush=True,end='')
+time.sleep(1)
+print("|==     |", end='', flush=True)
+time.sleep(1)
+print("|===    |", end='', flush=True)
+time.sleep(1)
+print("|====   |", end='', flush=True)
+time.sleep(1)
+print("|=====  |", end='', flush=True)
+time.sleep(1)
+print("|====== |", end='', flush=True)
+time.sleep(1)
+print("|=======|", end='', flush=True)
