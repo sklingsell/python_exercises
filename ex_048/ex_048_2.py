@@ -12,11 +12,11 @@ while counter < nr_of_guesses:
     if guess_nr < target_nr:
         print('Too low.')
         if counter == nr_of_guesses:
-            print(f'This was your final guess. Game over. The correct number was {target_nr}')
+            print(f'This was your final guess. Game over. The correct number was {target_nr}.')
     elif guess_nr > target_nr:
         print('Too high.')
         if counter == nr_of_guesses:
-            print(f'This was your final guess. Game over. The correct number was {target_nr}')
+            print(f'This was your final guess. Game over. The correct number was {target_nr}.')
     else:
         print('Congratulations, you guessed the correct number!')
         counter = nr_of_guesses
